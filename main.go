@@ -49,7 +49,7 @@ func main() {
 		},
 	})
 
-	imageFile, err := os.Create("./test_image.png")
+	imageFile, err := os.Create("./output/test_image.png")
 	if err != nil {
 		log.Fatal("failed to create the file")
 	}
