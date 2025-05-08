@@ -39,12 +39,13 @@ func main() {
 		MarginT: 15,
 		MarginB: 20,
 		Front: &color.NRGBA{
-			R: 255,
-			G: 128,
-			B: 0,
+			R: 125,
+			G: 125,
+			B: 240,
 			A: 150,
 		},
 		Back: &color.NRGBA{
+			B: 124,
 			A: 0, // opacity
 		},
 	})
