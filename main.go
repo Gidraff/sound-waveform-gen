@@ -32,25 +32,27 @@ func main() {
 	img := waveform.MinMax(w0, &waveform.Options{
 		Width:   1800,
 		Height:  400,
-		Zoom:    1.7,
+		Zoom:    5.0, // zoom
 		Half:    false,
 		MarginL: 20,
 		MarginR: 15,
 		MarginT: 15,
 		MarginB: 20,
 		Front: &color.NRGBA{
-			R: 125,
-			G: 125,
-			B: 240,
-			A: 150,
+			R: 0,
+			G: 157, // this gives the waveform a green color
+			B: 47,
+			A: 100,
 		},
 		Back: &color.NRGBA{
-			B: 124,
-			A: 0, // opacity
+			R: 124,
+			G: 0,
+			B: 54,
+			A: 20, // opacity
 		},
 	})
 
-	imageFile, err := os.Create("./output/test_image.png")
+	imageFile, err := os.Create("./output/test_image7.png")
 	if err != nil {
 		log.Fatal("failed to create the file")
 	}
