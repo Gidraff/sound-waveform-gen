@@ -1,3 +1,5 @@
+github.com/veandco/go-sdl2 v0.4.40 h1:fZv6wC3zz1Xt167P09gazawnpa0KY5LM7JAvKpX9d/U=
+github.com/veandco/go-sdl2 v0.4.40/go.mod h1:OROqMhHD43nT4/i9crJukyVecjPNYYuCofep6SNiAjY=
 github.com/xigh/go-waveform v0.0.0-20241231151351-68c9c9aa60f5 h1:bpkIYUdEuku5xEgDJACl9CasLE+2ynRgKLi4Gth6hQ0=
 github.com/xigh/go-waveform v0.0.0-20241231151351-68c9c9aa60f5/go.mod h1:4lrKHCQlxnx3Un8AJ1CN3KhAgpe0z6M5RxmqYEfY4sE=
 github.com/xigh/go-wavreader v0.0.0-20210516212152-f49019aa7352 h1:iK7SnIgPre4wrUN7HpIhZpfP7884mcc7CQS3FeyGTes=
